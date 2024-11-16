@@ -31,4 +31,9 @@ body {
 /* Fix Leaflet marker icons */
 .leaflet-default-icon-path {
   background-image: url("https://unpkg.com/leaflet@1.7.1/dist/images/marker-icon.png");
+}
+
+/* Add this to ensure all headings are black by default */
+h1, h2, h3, h4, h5, h6 {
+  color: black;
 } 

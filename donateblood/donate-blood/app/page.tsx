@@ -26,7 +26,7 @@ export default function Home(): JSX.Element {
           </button>
 
           <button 
-            onClick={() => router.push('/blood-request')}
+            onClick={() => router.push('/need-blood')}
             className="p-8 bg-white rounded-xl shadow-lg hover:shadow-xl transition-shadow"
           >
             <div className="flex flex-col items-center text-center">
